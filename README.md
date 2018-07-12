@@ -1,11 +1,9 @@
-iRODS-legacy
-------------
+# iRODS-legacy
 
 This is the 3.3.1 version of iRODS, which is used in Lyon and is slightly
 modified so that it builds with newer versions of GCC (5+).
 
-Installation
-~~~~~~~~~~~~
+## Installation
 
 ```
 cd iRODS
