@@ -7,10 +7,12 @@ modified so that it builds with newer versions of GCC (5+).
 Installation
 ~~~~~~~~~~~~
 
-    cd iRODS
-    ./scripts/configure
-    make
-    mkdir -p $HOME/opt/bin
-    cp clients/icommands/bin/* $HOME/opt/bin
+```
+cd iRODS
+./scripts/configure
+make
+mkdir -p $HOME/opt/bin
+cp clients/icommands/bin/* $HOME/opt/bin
+```
 
 Questions and feedback to Tamas Gal <tgal@km3net.de>.
