@@ -1,9 +1,16 @@
 iRODS-legacy
 ------------
 
-This repository represents iRODS development from the DICE group at UCSD and UNC-Chapel Hill through v3.3.1.
+This is the 3.3.1 version of iRODS, which is used in Lyon and is slightly
+modified so that it builds with newer versions of GCC (5+).
 
-New development is available at: https://github.com/irods/irods
+Installation
+~~~~~~~~~~~~
 
-This repository has been archived.
+    cd iRODS
+    ./scripts/configure
+    make
+    mkdir -p $HOME/opt/bin
+    cp clients/icommands/bin/* $HOME/opt/bin
 
+Questions and feedback to Tamas Gal <tgal@km3net.de>.
